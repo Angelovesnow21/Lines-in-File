@@ -1,0 +1,16 @@
+file = open("File.txt", "r")
+print(file.read())
+file.close()
+
+file = open("File.txt", "w")
+file.write("File in write mode.....")
+file.write("Hello! I am Jessica. I am a student of Codingal.I read in grade 7.")
+file.close()
+
+file = open("File.txt", "a")
+file.write("File in append mode.....")
+file.write("SOS HERMANN GMEINER COLLEGE DHAKA")
+file.close()
+file = open("File.txt", "r")
+print(file.read())
+file.close()
